@@ -1,4 +1,5 @@
 #include <fstream>
+// will not compile because it exceeds amount of allowed nested for loops
 int main() {
     const std::string alpha = "0123456789qwertyuiopasdfghjklzxcvbnm";
     std::ofstream file;
