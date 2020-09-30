@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 output=outputfile.txt
-
+# early experiment in the computer breaking game, will make a million files
 b="why hello there my dude"
 mkdir ~/desktop/thing
 cd ~/desktop/thing
