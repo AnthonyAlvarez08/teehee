@@ -1,3 +1,4 @@
+#!/user/bin/env python
 haha = open("teehee.cpp", "w")
 init = """#include <fstream>
 int main() {
@@ -9,6 +10,10 @@ brackets = 0
 haha.write(init)
 alpha = "abcdefghijklmnopqrstuvwxyz"
 combos = list()
+"""
+The following would have made a much bigger teehee.cpp
+but sadly, you can only have 256 nested for loops in C++
+"""
 # for i in alpha:
 #     combos.append(i)
 
