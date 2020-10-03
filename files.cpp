@@ -1,3 +1,7 @@
+/*
+* This is the file that started it all
+* do not use unless you want to make someone very mad
+*/
 #include <fstream>
 int main() {
     const std::string alpha = "0123456789qwertyuiopasdfghjklzxcvbnm";
