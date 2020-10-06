@@ -1,6 +1,7 @@
 # this is just a while true loop, which means I can't truly calculate how many files it will get but meh
 import sys
-wah = float("-inf")
+wah = -10e+308
 while True:
   b = open(f"file{wah}", "w")
-  wah += (1 / float("inf"))
+  # smallest div value?
+  wah += 1
